@@ -6,7 +6,10 @@ import { AppComponent } from './app.component';
 import { CreateCustomerComponent } from './create-customer/create-customer.component';
 import { CustomerDetailsComponent } from './customer-details/customer-details.component';
 import { CustomersListComponent } from './customers-list/customers-list.component';
+import { DeviceDetailsComponent } from './device-details/device-details.component';
+import { DevicesListComponent } from './devices-list/devices-list.component';
 import { SearchCustomersComponent } from './search-customers/search-customers.component';
+import { CreateDeviceComponent } from './create-device/create-device.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -16,6 +19,9 @@ import { HttpClientModule } from '@angular/common/http';
     CreateCustomerComponent,
     CustomerDetailsComponent,
     CustomersListComponent,
+    CreateDeviceComponent,
+    DeviceDetailsComponent,
+    DevicesListComponent,
     SearchCustomersComponent
   ],
   imports: [
